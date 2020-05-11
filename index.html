@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alarm App</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="wrapper">
+      <div class="top">
+          <div class="clock">
+              <h1 class="time"></h1>
+          </div>
+      </div>
+      <div class="bottom">
+          <div class="alarm">
+                  <!-- <input type="datetime-local" id="birthdaytime" name="birthdaytime"> -->
+
+                  <div class="input-time input-minutes">
+                      <label class="input-label">Set Minutes</label>
+                      <select id="selectMinutes">
+                          <option value="0">0</option>
+                          <option value="5" selected>05</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="30">30</option>
+                          <option value="35">35</option>
+                          <option value="40">40</option>
+                          <option value="45">45</option>
+                          <option value="50">50</option>
+                          <option value="55">55</option>
+                      </select>
+                  </div>
+                  <br>
+
+                  <div class="input-time input-seconds">
+                      <label class="input-label">Set Seconds</label>
+                      <select id="selectSeconds">
+                          <option value="0">0</option>
+                          <option value="5" selected>05</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="30">30</option>
+                          <option value="35">35</option>
+                          <option value="40">40</option>
+                          <option value="45">45</option>
+                          <option value="50">50</option>
+                          <option value="55">55</option>
+                      </select>
+                  </div>
+                  <br>
+                  <button id="btn-alarm" class="btn">Set Alarm</button>
+          </div>
+      </div>
+  </div>
+
+
+  <script src="script.js" ></script>
+</body>
+</html>
